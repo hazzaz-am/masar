@@ -1,0 +1,23 @@
+{
+  "name": "masar",
+  "private": true,
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "pnpm -r build",
+    "dev": "pnpm -r --parallel dev",
+    "typecheck": "pnpm -r typecheck",
+    "lint": "pnpm -r lint",
+    "test": "pnpm -r test"
+  },
+  "keywords": [],
+  "license": "ISC",
+  "engines": {
+    "node": ">=22"
+  },
+  "packageManager": "pnpm@10.34.5",
+  "devDependencies": {
+    "typescript": "^7.0.2"
+  }
+}
